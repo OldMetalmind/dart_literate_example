@@ -35,7 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child:
-        CircleAvatar(
+        const CircleAvatar(
            backgroundImage: NetworkImage('network_image_url'),
         )
         ,

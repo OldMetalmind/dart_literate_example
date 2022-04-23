@@ -4,15 +4,13 @@ Why not Org Mode with Literate?
 * Snippet
 
 #+name: snippet
-#+begin_src dart :exports none
+#+begin_src dart
 const CircleAvatar(
    backgroundImage: NetworkImage('network_image_url'),
 )
 #+end_src
 
-* Source
-
-#+begin_src dart :noweb yes :tangle lib/main.dart
+#+begin_src dart :exports none :noweb yes :tangle lib/main.dart
 import 'package:flutter/material.dart';
 
 void main() {
